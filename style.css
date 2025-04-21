@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2,a{
+    font-family: "Calibri";
+}
+body{
+    background-image: url("Wallpaper\ background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content_1{
+    margin-top: 180px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+}
+.content_1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.content_1 .data{
+    margin-top: 10px;
+}
+.content_1 .instagram {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 20px;
+}
+.content_1 .instagram img{
+    margin: 5px;
+    width:40px;
+    height: 40px;
+}
+.content_1 .instagram a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
